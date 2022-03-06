@@ -10,12 +10,12 @@ import {
   CloseButton,
 } from './styles';
 
-type TSearchLayout = {
+type TSearch = {
   search: string;
   setSearch: SetStateAction<string | any>;
 }
 
-const SearchLayout = ({ search, setSearch }: TSearchLayout) => {
+const Search = ({ search, setSearch }: TSearch) => {
   return (
     <Wrapper>
       <InputWrapper>
@@ -37,9 +37,9 @@ const SearchLayout = ({ search, setSearch }: TSearchLayout) => {
         </SearchIcon>
       </InputWrapper>
 
-      <Logo />
+      <Logo image="../assets/logo.png" />
     </Wrapper>
   );
 };
 
-export default SearchLayout
+export default Search

@@ -33,6 +33,7 @@ export const Input = styled.input`
   width: 100%;
   border: none;
   padding-left: 40px;
+  box-sizing: border-box;
 `;
 
 export const CloseButton = styled.button`

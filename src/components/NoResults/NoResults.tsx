@@ -1,11 +1,15 @@
 import React from 'react'
 import { Warpper, Image, Title } from './styles';
 
-const NoResults = () => {
+type TImage = {
+  image: string;
+}
+
+const NoResults = ({ image }: TImage) => {
   return (
     <Warpper>
       <Title>Sem resultados...</Title>
-      <Image src="assets/no_results.png" />
+      <Image src={image} />
     </Warpper>
   )
 }

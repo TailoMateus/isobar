@@ -1,9 +1,13 @@
 import React from 'react'
 import { Image } from './styles';
 
-const Logo = () => {
+type TImage = {
+  image: string;
+}
+
+const Logo = ({ image }: TImage) => {
   return (
-    <Image src="../assets/logo.png" />
+    <Image src={image} />
   )
 }
 

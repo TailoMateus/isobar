@@ -17,6 +17,7 @@ export const Dropdown = styled.ul`
   background: #8f8585;
   color: #fff;
   font-weight: 600;
+  margin: 0;
 `
 
 export const DropdownOption = styled.li`

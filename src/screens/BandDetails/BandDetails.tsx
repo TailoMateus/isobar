@@ -28,7 +28,7 @@ const BandsList = ({ bandDetail, albums }: TBandDetail) => {
     <div>
       <Header>
         <GoBack />
-        <Logo />
+        <Logo image="../assets/logo.png" />
       </Header>
 
       <BandImage>

@@ -29,7 +29,7 @@ const BandsList = ({ bands }: TBand) => {
       {Search}
 
       {bandsFormatter.length === 0 && (
-        <NoResults />
+        <NoResults image="/assets/no_results.png" />
       )}
 
       {bandsFormatter.length > 0 && (
