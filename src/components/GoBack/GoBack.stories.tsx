@@ -1,7 +1,7 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
-import styled from 'styled-components';
-import GoBack from './GoBack';
+import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
+import styled from 'styled-components'
+import GoBack from './GoBack'
 
 const Decorator = styled.div`
   background: #cecece;

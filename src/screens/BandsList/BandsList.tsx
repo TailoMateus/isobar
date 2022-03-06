@@ -6,7 +6,7 @@ import PlayMusicAmount from '@components/PlaysMusicAmount/PlayMusicAmount'
 import NoResults from '@components/NoResults/NoResults'
 import OrderBy from '@components/OrderBy/OrderBy'
 import { TBands } from '../../types'
-import { WrapperList, TextBlock, Title, WrapperOrderBy } from './styles';
+import { WrapperList, TextBlock, Title, WrapperOrderBy } from './styles'
 
 type TBand = {
   bands: TBands[]

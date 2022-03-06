@@ -1,5 +1,5 @@
 import React from 'react'
-import { Warpper, Image, Title } from './styles';
+import { Warpper, Image, Title } from './styles'
 
 type TImage = {
   image: string;

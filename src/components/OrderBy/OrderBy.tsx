@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { OrderImage, Dropdown, DropdownOption } from './styles';
+import { OrderImage, Dropdown, DropdownOption } from './styles'
 import { TBands } from '../../types'
 
 type TData = {

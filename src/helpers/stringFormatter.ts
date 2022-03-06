@@ -3,4 +3,4 @@ export const normalizeString = (text: string) => {
     .trim()
     .toLowerCase()
     .normalize('NFD')
-};
+}

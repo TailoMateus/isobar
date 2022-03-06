@@ -1,5 +1,5 @@
 import React from 'react'
-import { SubTitle } from './styles';
+import { SubTitle } from './styles'
 
 type TPlayMusicAmount = {
   plays: number;

@@ -8,7 +8,7 @@ import {
   InputWrapper,
   Input,
   CloseButton,
-} from './styles';
+} from './styles'
 
 type TSearch = {
   search: string;

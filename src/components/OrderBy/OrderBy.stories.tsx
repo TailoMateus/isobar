@@ -1,7 +1,7 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
-import styled from 'styled-components';
-import OrderBy from './OrderBy';
+import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
+import styled from 'styled-components'
+import OrderBy from './OrderBy'
 
 const Decorator = styled.div`
   position: relative;
@@ -31,7 +31,3 @@ const data = [{
 Default.args = {
   data,
 };
-
-
-
-

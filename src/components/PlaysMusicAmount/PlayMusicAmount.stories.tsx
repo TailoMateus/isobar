@@ -1,6 +1,6 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
-import PlayMusicAmount from './PlayMusicAmount';
+import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
+import PlayMusicAmount from './PlayMusicAmount'
 
 export default {
   title: 'Components/PlayMusicAmount',

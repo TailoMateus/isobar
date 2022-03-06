@@ -1,39 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Summary
 
-## Getting Started
+- [About](#🔖-About)
+- [Technologies used](#🛠-Technologies-used)
+- [Folder structure](#🏢-Folder-structure)
+- [Architecture](#🏢-Architecture)
+- [Installation for development](#🗂-Installation-for-development)
+- [Test improvements](#🚧-Test-improvements)
+- [General information](#🚀-General-information)
 
-First, run the development server:
+---
+
+## 🔖 About
+
+Isobar is an application to list and filter details of music bands, it's even possible to see your favorite albums.
+
+---
+
+## 🛠 Technologies used
+
+The project was developed using the following technologies
+
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Styled Components](https://www.styled-components.com/)
+- [Next.js](https://nextjs.org/)
+- [Storybook](https://storybook.js.org/)
+- [ESLint](https://eslint.org/)
+- [Axios](https://github.com/axios/axios)
+- [NProgress](https://github.com/rstacruz/nprogress)
+
+---
+
+## 🏢 Folder structure
 
 ```bash
-npm run dev
-# or
-yarn dev
+src
+  components/*
+  helpers/*
+  hooks/*
+  pages/
+    bands/*
+    _app.tsx
+    _document.tsx
+  repositories/*
+  screens/
+    BandDetails/*
+    BandsList/*
+  services/*
+  styles/*
+  tests/*
+  types/*
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🏢 Architecture
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+[Click here for more information about the flowchart](https://whimsical.com/architecture-Hy8GbFefNJhwkpjjiUBVrs)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Architecture](https://cdn-images-1.medium.com/max/800/1*u0GKTn5QMafpDupriAz-Lg.png)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🗂 Installation for development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Install `package.json` dependencies using Yarn:
+    `yarn install`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Run server at url: http://localhost:3000
+    `yarn dev`
 
-## Deploy on Vercel
+- Run project tests:
+    `yarn test`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Run storybook documentation:
+    `yarn storybook`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
 
+## 🚧 Test improvements
 
-* CodeReview - 30m
-* Readme - 1h 30m
-* Colocar aplicação no ar - 1h 30m
+- In the band details there is a list of albums by band, it would be more interesting if the /albums endpoint was /albums/:id
+- To use image rendering resources with next, the assets should be in .svg
+- It's interesting to have a link to Figma (or another inspection tool) to be completely faithful to the design
+
+---
+
+## 🚀 General information
+
+- The project was started with `create-next-app`.
+- Use some editor that supports `editorConfig`.
+- Used the API [Bands Labs](https://iws-brazil-labs-iws-recruiting-bands.iwsbrazil.io/api)

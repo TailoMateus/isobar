@@ -1,6 +1,6 @@
 import BandDetails from '@screens/BandDetails/BandDetails'
 import { getBandDetails, getAlbums } from '@repositories/bands'
-import { GetServerSideProps } from 'next';
+import { GetServerSideProps } from 'next'
 import { TBandDetail } from '../../types'
 
 const BandID = ({ bandDetail, albums }: TBandDetail) => {

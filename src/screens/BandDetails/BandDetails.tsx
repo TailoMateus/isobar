@@ -4,7 +4,7 @@ import PlayMusicAmount from '@components/PlaysMusicAmount/PlayMusicAmount'
 import GoBack from '@components/GoBack/GoBack'
 import Logo from '@components/Logo/Logo'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import { IconProp } from '@fortawesome/fontawesome-svg-core'
 import { TBandDetail } from '../../types'
 import {
   WrapperBandInfo,
@@ -19,10 +19,10 @@ import {
   PlusIcon,
   BandImage,
   Header
-} from './styles';
+} from './styles'
 
 const BandsList = ({ bandDetail, albums }: TBandDetail) => {
-  const [hasEllipsis, setHasEllipsis] = useState(true);
+  const [hasEllipsis, setHasEllipsis] = useState(true)
 
   return (
     <div>
@@ -67,4 +67,4 @@ const BandsList = ({ bandDetail, albums }: TBandDetail) => {
   )
 }
 
-export default BandsList;
+export default BandsList

@@ -1,6 +1,6 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
-import RoundImage from './RoundImage';
+import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
+import RoundImage from './RoundImage'
 
 export default {
   title: 'Components/RoundImage',
@@ -15,5 +15,3 @@ Default.args = {
   image: '/assets/band.png',
   size: '100px'
 };
-
-

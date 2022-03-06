@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
-import Search from './Search';
+import React, { useState } from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
+import Search from './Search'
 
 export default {
   title: 'Components/Search',
@@ -14,4 +14,4 @@ const Template: ComponentStory<typeof Search> = (args) => {
   )
 };
 
-export const Default = Template.bind({});
+export const Default = Template.bind({})
