@@ -34,8 +34,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-* Storybooks - 1h 30m
-* Testes automatizados - 2h 30m
 * CodeReview - 30m
 * Readme - 1h 30m
 * Colocar aplicação no ar - 1h 30m

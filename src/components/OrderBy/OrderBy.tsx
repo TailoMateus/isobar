@@ -28,6 +28,7 @@ const OrderBy = ({ data, ordenated }: TData) => {
     <>
       <OrderImage
         src="assets/order_by.png"
+        alt="order bands by name"
         onClick={() => setOpenDropdown((prevState) => !prevState)}
       />
 

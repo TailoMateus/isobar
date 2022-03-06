@@ -32,7 +32,7 @@ const BandsList = ({ bandDetail, albums }: TBandDetail) => {
       </Header>
 
       <BandImage>
-        <Image src={bandDetail.image} alt="band image" />
+        <Image src={bandDetail.image} alt="band image profile" />
       </BandImage>
       <Title>{bandDetail.name}</Title>
 

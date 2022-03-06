@@ -7,7 +7,7 @@ type TImage = {
 
 const Logo = ({ image }: TImage) => {
   return (
-    <Image src={image} />
+    <Image src={image} alt="logo" />
   )
 }
 

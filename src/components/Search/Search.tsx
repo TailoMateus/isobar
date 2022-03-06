@@ -20,8 +20,8 @@ const Search = ({ search, setSearch }: TSearch) => {
     <Wrapper>
       <InputWrapper>
         {search && (
-          <CloseButton onClick={() => setSearch('')}>
-            <img src="assets/close.png" />
+          <CloseButton onClick={() => setSearch('')} data-testid="close">
+            <img src="assets/close.png" alt="close search" />
           </CloseButton>
         )}
 
@@ -30,10 +30,11 @@ const Search = ({ search, setSearch }: TSearch) => {
           type="text"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
+          data-testid="search"
         />
 
         <SearchIcon>
-          <SearchImage src="assets/search.png" />
+          <SearchImage src="assets/search.png" alt="band search" />
         </SearchIcon>
       </InputWrapper>
 

@@ -9,7 +9,7 @@ const NoResults = ({ image }: TImage) => {
   return (
     <Warpper>
       <Title>Sem resultados...</Title>
-      <Image src={image} />
+      <Image src={image} alt="no results" />
     </Warpper>
   )
 }

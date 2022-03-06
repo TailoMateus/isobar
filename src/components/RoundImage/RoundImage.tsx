@@ -8,7 +8,7 @@ type TImage = {
 
 const RoundImage = ({ image, size }: TImage) => {
   return (
-    <Image src={image} size={size} />
+    <Image src={image} size={size} alt="band image profile" />
   )
 }
 

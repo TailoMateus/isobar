@@ -11,6 +11,7 @@ const GoBack = () => {
     <Icon
       onClick={() => router.push('/bands')}
       icon={faAngleLeft as IconProp}
+      data-testid="back"
     />
   )
 }
