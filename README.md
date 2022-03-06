@@ -1,18 +1,27 @@
 # Summary
 
 - [About](#🔖-About)
+- [Deploy](#🚀-Deploy)
 - [Technologies used](#🛠-Technologies-used)
-- [Folder structure](#🏢-Folder-structure)
+- [Folder structure](#🗂-Folder-structure)
 - [Architecture](#🏢-Architecture)
 - [Installation for development](#🗂-Installation-for-development)
 - [Test improvements](#🚧-Test-improvements)
-- [General information](#🚀-General-information)
+- [General information](#❗-General-information)
 
 ---
 
 ## 🔖 About
 
 Isobar is an application to list and filter details of music bands, it's even possible to see your favorite albums.
+
+---
+
+## 🚀 Deploy
+
+You can see the application at [Vercel](https://github.com/vercel/vercel):
+
+[isobar.vercel.app/bands](https://isobar.vercel.app/bands)
 
 ---
 
@@ -32,7 +41,7 @@ The project was developed using the following technologies
 
 ---
 
-## 🏢 Folder structure
+## 🗂 Folder structure
 
 ```bash
 src
@@ -82,12 +91,13 @@ src
 ## 🚧 Test improvements
 
 - In the band details there is a list of albums by band, it would be more interesting if the /albums endpoint was /albums/:id
+- Some information returned by the API is not the same as the design. example: Band profile pictures
 - To use image rendering resources with next, the assets should be in .svg
 - It's interesting to have a link to Figma (or another inspection tool) to be completely faithful to the design
 
 ---
 
-## 🚀 General information
+## ❗ General information
 
 - The project was started with `create-next-app`.
 - Use some editor that supports `editorConfig`.

@@ -1,7 +1,7 @@
 #nprogress::before {
   content: '';
   background: #f34401;
-  height: 800px;
+  height: 100%;
   opacity: 0.8;
   position: absolute;
   top: 0;
@@ -42,7 +42,7 @@
   position: fixed;
   z-index: 1031;
   top: 50%;
-  right: 50%;
+  left: calc(50% - 20px);
 }
 
 #nprogress .spinner-icon {
